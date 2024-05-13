@@ -1,0 +1,19 @@
+theme = "fleet_dark"
+
+[editor]
+line-number = "relative"
+mouse = false
+bufferline = "multiple"
+true-color = true
+
+[editor.lsp]
+display-messages = true
+
+[keys.normal]
+S-h = "goto_previous_buffer"
+S-l = "goto_next_buffer"
+C-c = ":buffer-close"
+
+[keys.insert]
+"A-x" = "normal_mode"
+j = { k = "normal_mode" }
